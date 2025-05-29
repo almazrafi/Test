@@ -8,11 +8,11 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Build
-        run: sleep 10
+        run: sleep 60
 
   test:
     runs-on: macos-latest
     needs: build
     steps:
       - name: Test
-        run: sleep 10
+        run: sleep 60
