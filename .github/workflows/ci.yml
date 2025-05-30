@@ -12,7 +12,6 @@ jobs:
 
   test:
     runs-on: macos-latest
-    needs: build
     steps:
       - name: Test
         run: sleep 60
